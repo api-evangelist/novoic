@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org (PyPI JSON API) + https://github.com/novoic
+note: >-
+  Novoic publishes two official open-source Python feature-extraction libraries
+  (audio + linguistics). These are first-party developer libraries, not clients
+  of the enterprise Speech API (which has no public SDK). Both GitHub repos are
+  archived; the PyPI releases remain installable.
+packages:
+- language: python
+  registry: pypi
+  name: surfboard
+  version: 0.2.0
+  url: https://pypi.org/project/surfboard/
+  repo: https://github.com/novoic/surfboard
+  install: pip install surfboard
+  summary: Novoic's audio feature extraction library.
+  license: GPL-3.0 (dual commercial/open-source)
+  official: true
+- language: python
+  registry: pypi
+  name: blabla
+  version: 0.2.2
+  url: https://pypi.org/project/blabla/
+  repo: https://github.com/novoic/BlaBla
+  install: pip install blabla
+  summary: Novoic's linguistic feature extraction library.
+  license: GPL-3.0
+  official: true

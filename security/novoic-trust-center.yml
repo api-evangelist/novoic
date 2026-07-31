@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://novoic.com
+url: https://novoic.com
+note: >-
+  HIPAA/GDPR compliance is a stated posture on the Novoic homepage; Novoic
+  does not publish a dedicated trust portal (the /trust path soft-404s to the
+  SPA homepage, which carries the compliance claim).
+certifications:
+- HIPAA
+- GDPR
+evidence:
+- source: https://novoic.com
+  keywords:
+  - hipaa
+  - gdpr

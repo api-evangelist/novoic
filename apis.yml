@@ -1,7 +1,31 @@
 aid: novoic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novoic.png
 name: Novoic
-description: 'Novoic is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Novoic is a London-based clinical AI company building speech biomarkers for
+  the early detection of Alzheimer's disease and cognitive impairment. Its
+  technology analyzes how people speak - acoustic and linguistic patterns - to
+  screen for subtle cognitive change in about ten minutes on any smart device.
+  Products include Storyteller (automated, browser-based speech-based cognitive
+  testing), Dashboard (an enterprise platform for running screening programs
+  across sites with AI-assisted triage and analytics), and a Speech API for
+  direct access to their speech processing, automated speech recognition,
+  quality control, and speech-biomarker models. Novoic is deployed across 50+
+  medical institutions, partners with the Alzheimer's Disease Neuroimaging
+  Initiative, and emphasizes HIPAA/GDPR compliance. It also publishes two
+  open-source feature-extraction libraries, surfboard (audio) and blabla
+  (linguistics).
 url: https://raw.githubusercontent.com/api-evangelist/novoic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +35,59 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
-apis: []
+- Speech
+- Healthcare
+- Alzheimers
+- Biomarkers
+- Machine Learning
+- Digital Health
+- Neurology
+- Cognitive Assessment
+apis:
+- name: Novoic Speech API
+  description: >-
+    Direct access to Novoic's speech processing, automated speech recognition,
+    quality control systems, and speech-biomarker models for custom
+    implementations. Access is enterprise/gated; no public developer portal or
+    OpenAPI is published.
+  humanURL: https://novoic.com
+  properties:
+  - type: Homepage
+    url: https://novoic.com
+common:
+- type: TrustCenter
+  url: security/novoic-trust-center.yml
+- type: DomainSecurity
+  url: security/novoic-domain-security.yml
+- type: Website
+  url: https://novoic.com
+- type: Blog
+  url: https://blog.novoic.com
+- type: GitHubOrganization
+  url: https://github.com/novoic
+- type: PrivacyPolicy
+  url: https://novoic.com/privacy
+- type: Packages
+  url: packages/novoic-packages.yml
+- type: SDKs
+  url: packages/novoic-packages.yml
+- type: Conformance
+  url: conformance/novoic-conformance.yml
+- type: Compliance
+  url: https://novoic.com
+- type: LLMsTxt
+  url: llms/novoic-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

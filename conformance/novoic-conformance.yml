@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+source: https://novoic.com
+note: >-
+  Standards asserted from Novoic's publicly stated compliance posture. No public
+  OpenAPI is available to derive technical conformance (auth, pagination,
+  rfc9457) from, so those are left unasserted rather than fabricated.
+standards:
+- id: hipaa
+  conforms: true
+  evidence: Homepage states HIPAA compliance for clinical speech data handling.
+- id: gdpr
+  conforms: true
+  evidence: Homepage states GDPR compliance; privacy policy published at /privacy.
