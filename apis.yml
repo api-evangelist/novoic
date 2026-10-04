@@ -54,7 +54,7 @@ tags:
 - Healthcare
 - Alzheimers
 - Biomarkers
-- Machine-Learning
+- Machine Learning
 - Digital Health
 - Neurology
 - Cognitive Assessment
@@ -69,6 +69,7 @@ tags_raw:
 - Digital Health
 - Neurology
 - Cognitive Assessment
+- Machine-Learning
 apis:
 - name: Novoic Speech API
   description: >-
